@@ -19,6 +19,25 @@
 
         </p>
     </div>
+    <script>
+        function compareText()
+     {
+          const input1Element = document.getElementById("input1")
+          const input2Element = document.getElementById("input2")
+  
+          const resultElement = document.getElementById("match-result")
+  
+          if(input1Element.value == input2Element.value){
+              resultElement.innerText = "Text Matched!!!"
+              resultElement.style.color = "green"
+          }
+          else{
+              resultElement.innerText = " Text Not Matched!!!"
+              resultElement.style.color = "red"
+  
+          }
+      }
+  </script>
 </body>
 
 </html>
