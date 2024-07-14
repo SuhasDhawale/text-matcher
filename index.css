@@ -1,3 +1,25 @@
-body{
-    margin: 0;
+.container{
+    background-color: #a8cbfa;
+    height: 290px;
+    width: 500px;
+    margin: 0 auto;
 }
+.heading{
+    text-align:  center;
+    background-color: #a8cbfa;
+    height: 50px;
+    padding-top: 30px;
+ }
+ .text-container{
+     display: flex;
+     justify-content: space-around;
+ }
+ .input-text{
+     width: 220px;
+     height: 130px;
+     font-size: 20px;
+ }
+ .result{
+     text-align: center;
+ }
+ 
